@@ -169,6 +169,60 @@ nav li a {
     
 
 }
+/* card-stye*/
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 400px 0 400px;
+    align-items: center;
+    gap:20px;
+
+
+
+}
+.card-title{
+    font-size: 42px;
+    font-weight: bold;
+    width: 1140px;
+    text-align: center;
+    align-items: center;
+    margin: 100px auto 50px;
+}
+.card{
+    box-shadow: 2px 2px 3px 3px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+    gap: 20px;
+}
+.h3{
+    color: #000000;
+    font-size: x-large;
+    font-family: 'Ag Heading' ,sans-serif;
+}
+.ionn {
+  font-family: 'Ag body base' ,sans-serif;
+  color:#22222aba ;
+  font-size: large;
+}
+.imgg{
+    border-radius: 100% ;
+}
+.oip{
+    display: flex;
+    gap: 20px;
+    width: 318.67px;
+}
+.date{
+    
+    color: rgba(193, 197, 201, 0.607); 
+    font-family: 'Ag body base' ,sans-serif;
+}
+.rn{
+  font-family: 'Ag body strong' ,sans-serif; 
+ color: #8987A1;
+}
+
+
 .section-2{
    display: flex;
     flex-direction: column;
